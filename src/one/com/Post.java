@@ -9,7 +9,7 @@ import com.sun.xml.internal.messaging.saaj.packaging.mime.util.OutputUtil;
 public class Post {
     String title;
     String content;
-    int id;
+    int    id;
 
     void print ( ) {
         System.out.println(title);
